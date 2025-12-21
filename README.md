@@ -1,3 +1,3 @@
 # BMI-Calculator
 
-## 🔴 [Live Demo](https://bmi-calculator-git-main-bsoumyaranjan32s-projects.vercel.app/)
+## 🔴 [Live Demo](https://bmi-calculator-wine-sigma.vercel.app/)
