@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.gauge-container {
+    width: 250px;
+    height: 125px;
+    position: relative;
+    margin: 0 auto;
+    background: #d7cfcf;
+    border-radius: 125px 125px 0 0;
+    overflow: hidden;
+    border-top: 36px solid rgb(21, 214, 21); 
+    border-left: 39px solid #0051ffe2;
+    border-right: 39px solid rgb(236, 26, 26); 
+    }
+
+    .needle {
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    width: 6px;
+    height: 76px;
+    background: #1f2937;
+    transform-origin: bottom center;
+    transform: translateX(-50%) rotate(-90deg);
+    /* Start at the left side */
+    border-radius: 3px;
+    transition: all 1s ;
+    }
+
+    .gauge-label {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #374151;
+    }
